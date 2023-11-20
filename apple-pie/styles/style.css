@@ -2,9 +2,33 @@
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 22px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/Users/maxime/Desktop/Ironhack_2/module/week/day01/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover; 
+  height: 600px;
+
 }
 
+.header img {
+  width: 100%;
+  height: auto; 
+ 
+}
+
+.apple-pie-text{
+  color: white;
+  font-size: 64px; 
+  font-weight: 900;
+  text-align: center;
+ 
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -18,6 +42,67 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+}
+
+.intro {
+  margin : 5% 10% 5% 10% ;
+  font-size: 26px;
+
+  
+}
+.recipe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+hr {
+  text-align: center;
+  width : 80%;
+
+}
+.grandmother{
+  margin-bottom: 5%;
+
+}
+.ingredients {
+  margin : 5% 10% 5% 10% ;
+
+
+}
+.ingredients hr{
+  width :100%;
+
+
+}
+.cooking {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+h2{
+  margin-bottom: 5%;
+
+}
+.directions {
+  margin : 5% 10% 5% 10% ;
+
+}
+.directions ol {
+  list-style-type: none;
+  
+}
+.directions li {
+  counter-increment: my-counter;
+  list-style-type: none;
+
+}
+
+li {
+  margin-left: 5%;
+
 }
 
 /* STYLES */
